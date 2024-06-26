@@ -4,4 +4,4 @@ for i in str:
         print(i.lower(),end="")
     else:
         print(i.upper(),end="")
-        
+#swapcase()
