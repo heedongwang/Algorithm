@@ -1,0 +1,5 @@
+n1,n2=map(str,input().split())
+n1=int('0b'+n1,2)
+n2=int('0b'+n2,2)
+n=format(n1+n2,'b')
+print(n)
