@@ -1,9 +1,8 @@
 def solution(quiz):
     answer = []
-    li=[]
     for i in quiz:
-        li= i.split("=")
-        if eval(li[0])==int(li[1]):
+        eql,an= i.split("=")
+        if eval(eql)==int(an):
             answer.append("O")
         else:
             answer.append("X")
